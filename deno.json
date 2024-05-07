@@ -1,0 +1,21 @@
+{
+    "imports": {
+        "@/": "./src/"
+    },
+
+    "tasks": {
+        "dev": "deno run --watch src/index.ts"
+    },
+
+    "lint": {
+        "exclude": ["dist/"]
+    },
+
+    "fmt": {
+        "indentWidth": 4
+    },
+
+    "exclude": [
+        "dist/"
+    ]
+}
