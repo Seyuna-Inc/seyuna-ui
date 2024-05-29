@@ -50,7 +50,7 @@ export const defaultConfig: Config = {
             _20xl: "3800px",
         },
     },
-    scaling: "_2xl",
+    upscale: "_2xl",
     spacing: "1rem",
     themes: [defaultTheme],
 };

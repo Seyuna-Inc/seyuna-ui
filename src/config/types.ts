@@ -61,7 +61,7 @@ export interface Config {
      *
      * See more: https://seyuna.com/ui/config/scaling
      */
-    scaling?: false | "lg" | "xl" | "_2xl" | "_3xl" | "_4xl" | string;
+    upscale?: false | "lg" | "xl" | "_2xl" | "_3xl" | "_4xl" | string;
 
     /**
      * The default spacing that every component in the Seyuna ecosystem will adhere to.
