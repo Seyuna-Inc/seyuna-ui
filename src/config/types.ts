@@ -39,7 +39,7 @@ export interface Config {
      *
      * It's recommended to keep this option enabled unless you are you using custom resets.
      *
-     * See more: https://github.com/elad2412/the-new-css-reset
+     * See more: https://seyuna.com/css-reset
      */
     reset: boolean;
 

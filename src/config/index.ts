@@ -9,6 +9,8 @@ import type { Config } from "./types.ts";
  */
 export const defaultConfig: Config = {
     name: "Seyuna",
+    slogan: "Another Seyuna App.",
+    reset: true,
     theme: "default",
     mode: "system",
     breakpoints: {
