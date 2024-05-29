@@ -41,12 +41,12 @@ export type Palette = {
         /**
          * The default background color for light mode.
          */
-        background?: Color;
+        background: Color;
 
         /**
          * The default text color for the light mode.
          */
-        textColor?: Color;
+        textColor: Color;
 
         /**
          * The default OKLCH lightness for all colors in light mode.
@@ -68,12 +68,12 @@ export type Palette = {
         /**
          * The default background color for dark mode.
          */
-        background?: Color;
+        background: Color;
 
         /**
          * The default text color for the dark mode.
          */
-        textColor?: Color;
+        textColor: Color;
 
         /**
          * The default OKLCH lightness for all colors in dark mode.
@@ -93,19 +93,19 @@ export type Palette = {
  * See more: https://seyuna.com/ui/config/theme#colors
  */
 export type Colors = {
-    alpha?: Hue;
-    beta?: Hue;
-    gamma?: Hue;
-    delta?: Hue;
-    epsilon?: Hue;
-    zeta?: Hue;
-    eta?: Hue;
-    theta?: Hue;
-    iota?: Hue;
-    kappa?: Hue;
-    lambda?: Hue;
-    mu?: Hue;
-    nu?: Hue;
+    alpha: Hue;
+    beta: Hue;
+    gamma: Hue;
+    delta: Hue;
+    epsilon: Hue;
+    zeta: Hue;
+    eta: Hue;
+    theta: Hue;
+    iota: Hue;
+    kappa: Hue;
+    lambda: Hue;
+    mu: Hue;
+    nu: Hue;
 };
 
 /**
@@ -117,15 +117,15 @@ export type Color = {
     /**
      * OKLCH Lightness Component
      */
-    lightness?: Lightness;
+    lightness: Lightness;
     /**
      * OKLCH Chroma Component
      */
-    chroma?: Chroma;
+    chroma: Chroma;
     /**
      * OKLCH Hue Component
      */
-    hue?: Hue;
+    hue: Hue;
 };
 
 /**

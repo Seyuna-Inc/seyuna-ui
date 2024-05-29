@@ -11,28 +11,28 @@ export interface Config {
      *
      * See more: https://seyuna.com/ui/config/brand#name
      */
-    name?: string;
+    name: string;
 
     /**
      * The slogan of the app (brand slogan).
      *
      * See more: https://seyuna.com/ui/config/brand#slogan
      */
-    slogan?: string;
+    slogan: string;
 
     /**
      * The default theme of the app.
      *
      * See more: https://seyuna.com/ui/config/theme#default
      */
-    theme?: string;
+    theme: string;
 
     /**
      * Seyuna supports both light and dark mode out of the box. By setting the mode to "system", the app uses the preferred mode of the user's operating system by default.
      *
      * See more: https://seyuna.com/ui/config/mode
      */
-    mode?: Mode;
+    mode: Mode;
 
     /**
      * Including a CSS reset is a common practice to reduce inconsistencies within different browsers.
@@ -41,7 +41,7 @@ export interface Config {
      *
      * See more: https://github.com/elad2412/the-new-css-reset
      */
-    reset?: boolean;
+    reset: boolean;
 
     /**
      * Seyuna uses 2 types of breakpoints:
@@ -52,7 +52,7 @@ export interface Config {
      *
      * See more: https://seyuna.com/ui/config/breakpoints
      */
-    breakpoints?: Breakpoints;
+    breakpoints: Breakpoints;
 
     /**
      * Seyuna is able to upscale content from a certain breakpoint and make it look the same on higher resolutions.
@@ -61,14 +61,14 @@ export interface Config {
      *
      * See more: https://seyuna.com/ui/config/scaling
      */
-    upscale?: false | "lg" | "xl" | "_2xl" | "_3xl" | "_4xl" | string;
+    upscale: false | "lg" | "xl" | "_2xl" | "_3xl" | "_4xl" | string;
 
     /**
      * The default spacing that every component in the Seyuna ecosystem will adhere to.
      *
      * See more: https://seyuna.com/ui/config/spacing
      */
-    spacing?: `${number}rem`;
+    spacing: `${number}rem`;
 
     /**
      * The array containing your theme objects.
@@ -77,7 +77,7 @@ export interface Config {
      *
      * See more: https://seyuna.com/ui/config/theme#themes
      */
-    themes?: Theme[];
+    themes: Theme[];
 }
 
 /**
@@ -87,43 +87,43 @@ export interface Config {
  */
 export type Breakpoints = {
     viewport: {
-        xs?: `${number}px`;
-        sm?: `${number}px`;
-        md?: `${number}px`;
-        lg?: `${number}px`;
-        xl?: `${number}px`;
-        _2xl?: `${number}px`;
-        _3xl?: `${number}px`;
-        _4xl?: `${number}px`;
-        _5xl?: `${number}px`;
+        xs: `${number}px`;
+        sm: `${number}px`;
+        md: `${number}px`;
+        lg: `${number}px`;
+        xl: `${number}px`;
+        _2xl: `${number}px`;
+        _3xl: `${number}px`;
+        _4xl: `${number}px`;
+        _5xl: `${number}px`;
         [key: string]: `${number}px` | undefined;
     };
 
     container: {
-        xs?: `${number}px`;
-        sm?: `${number}px`;
-        md?: `${number}px`;
-        lg?: `${number}px`;
-        xl?: `${number}px`;
-        _2xl?: `${number}px`;
-        _3xl?: `${number}px`;
-        _4xl?: `${number}px`;
-        _5xl?: `${number}px`;
-        _6xl?: `${number}px`;
-        _7xl?: `${number}px`;
-        _8xl?: `${number}px`;
-        _9xl?: `${number}px`;
-        _10xl?: `${number}px`;
-        _11xl?: `${number}px`;
-        _12xl?: `${number}px`;
-        _13xl?: `${number}px`;
-        _14xl?: `${number}px`;
-        _15xl?: `${number}px`;
-        _16xl?: `${number}px`;
-        _17xl?: `${number}px`;
-        _18xl?: `${number}px`;
-        _19xl?: `${number}px`;
-        _20xl?: `${number}px`;
+        xs: `${number}px`;
+        sm: `${number}px`;
+        md: `${number}px`;
+        lg: `${number}px`;
+        xl: `${number}px`;
+        _2xl: `${number}px`;
+        _3xl: `${number}px`;
+        _4xl: `${number}px`;
+        _5xl: `${number}px`;
+        _6xl: `${number}px`;
+        _7xl: `${number}px`;
+        _8xl: `${number}px`;
+        _9xl: `${number}px`;
+        _10xl: `${number}px`;
+        _11xl: `${number}px`;
+        _12xl: `${number}px`;
+        _13xl: `${number}px`;
+        _14xl: `${number}px`;
+        _15xl: `${number}px`;
+        _16xl: `${number}px`;
+        _17xl: `${number}px`;
+        _18xl: `${number}px`;
+        _19xl: `${number}px`;
+        _20xl: `${number}px`;
         [key: string]: `${number}px` | undefined;
     };
 };
