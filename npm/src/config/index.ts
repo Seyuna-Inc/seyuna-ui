@@ -1,5 +1,5 @@
-import { defaultTheme } from "@/theme/index.ts";
-import type { Config } from "./types.ts";
+import { defaultTheme } from "../theme/index.js";
+import type { Config } from "./types.js";
 
 /**
  * Default configuration
@@ -70,4 +70,4 @@ export const mergeSeyunaConfig = (config: Config): Config => {
 /**
  * Export all types
  */
-export type * from "./types.ts";
+export type * from "./types.js";

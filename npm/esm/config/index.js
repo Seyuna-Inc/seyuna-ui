@@ -1,13 +1,11 @@
-import { defaultTheme } from "@/theme/index.ts";
-import type { Config } from "./types.ts";
-
+import { defaultTheme } from "../theme/index.js";
 /**
  * Default configuration
  *
  * @returns Seyuna **Config** object
  * @see {@link https://seyuna.com/ui/config#default}
  */
-export const defaultConfig: Config = {
+export const defaultConfig = {
     name: "Seyuna",
     slogan: "Another Seyuna App.",
     reset: true,
@@ -57,17 +55,11 @@ export const defaultConfig: Config = {
     themes: [defaultTheme],
     path: "./styles",
 };
-
 /**
  * Merge configuration
  *
  * @returns Seyuna **Config** object
  */
-export const mergeSeyunaConfig = (config: Config): Config => {
+export const mergeSeyunaConfig = (config) => {
     return { ...defaultConfig, ...config };
 };
-
-/**
- * Export all types
- */
-export type * from "./types.ts";

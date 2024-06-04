@@ -1,0 +1,27 @@
+{
+  "name": "@seyuna/ui",
+  "version": "0.0.1-canary.5",
+  "description": "Seyuna UI framework",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seyuna-Inc/seyuna-ui.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Seyuna-Inc/seyuna-ui/issues"
+  },
+  "module": "./esm/mod.js",
+  "exports": {
+    ".": {
+      "import": "./esm/mod.js"
+    }
+  },
+  "scripts": {
+    "test": "node test_runner.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "picocolors": "^1.0.0"
+  },
+  "_generatedBy": "dnt@dev"
+}
