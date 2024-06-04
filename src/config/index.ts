@@ -55,6 +55,7 @@ export const defaultConfig: Config = {
     upscale: "_2xl",
     spacing: "1rem",
     themes: [defaultTheme],
+    path: "./styles",
 };
 
 /**

@@ -78,6 +78,13 @@ export interface Config {
      * See more: https://seyuna.com/ui/config/theme#themes
      */
     themes: Theme[];
+
+    /**
+     * The directory path where seyuna will generate the necessary files.
+     *
+     * See more: https://seyuna.com/ui/config/path
+     */
+    path: string;
 }
 
 /**
